@@ -6,4 +6,4 @@ seaborn
 plotly
 scikit-learn
 tensorflow==2.15.0
-statmodels
+statsmodels

@@ -5,6 +5,5 @@ matplotlib
 seaborn
 plotly
 scikit-learn
-tensorflow==2.11.0
-keras==2.11.0
-statsmodels
+tensorflow==2.15.0
+statmodels

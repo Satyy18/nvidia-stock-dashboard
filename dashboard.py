@@ -16,7 +16,7 @@ from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 from statsmodels.tsa.seasonal import seasonal_decompose
 
 # Load dataset
-file_path = 'C:/Users/satyendra maurya/.ipynb_checkpoints/nvidia_stock_2015_to_2024.csv'
+file_path = 'C:/Users/satyendra maurya/.ipynb_checkpoints/NVIDIA Corporation (NVDA) Stock  2015 - 2024/nvidia_stock_2015_to_2024.csv'
 nvidia_stock = pd.read_csv(file_path)
 
 # Convert the 'Date' column to datetime format

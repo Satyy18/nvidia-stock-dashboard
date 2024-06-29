@@ -15,17 +15,6 @@ from statsmodels.tsa.arima.model import ARIMA
 from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 from statsmodels.tsa.seasonal import seasonal_decompose
 
-import os
-import pandas as pd
-
-file_path = 'C:/Users/satyendra maurya/.ipynb_checkpoints/nvidia_stock_2015_to_2024.csv'
-
-if os.path.exists(file_path):
-    nvidia_stock = pd.read_csv(file_path)
-    # Proceed with your operations
-else:
-    print(f"File not found: {file_path}")
-
 # Load dataset
 file_path = 'C:/Users/satyendra maurya/.ipynb_checkpoints/NVIDIA Corporation (NVDA) Stock  2015 - 2024/nvidia_stock_2015_to_2024.csv'
 nvidia_stock = pd.read_csv(file_path)
